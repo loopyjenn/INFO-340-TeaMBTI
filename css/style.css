@@ -1,0 +1,527 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    display: inline-block;
+    background-color: #F3F2EB;
+    padding-bottom: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* nav bar */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #022B3A;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    z-index: 1;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    left: 0;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.icon {
+    max-width: 40px;
+    color: white;
+    position: fixed;
+    top: 0.5%;
+    right: 0;
+}
+
+/* home page */
+
+header {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    margin-left: auto;
+}
+
+h1 {
+    color: #A7CAB1;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 {
+    color: #505960;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rectdashboard {
+    width: 500px;
+    height: 900px; 
+    background-color: #FFFEFC; 
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.rectdashboard h3 {
+    color: #505960;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.rectdashboard h4 {
+    color: #505960;
+    font-family: Montserrat;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.comphome {
+    display: flex;
+    justify-content: center;  
+}
+
+.comphome .left2 {
+    height: 100%;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.comphome .right2 {
+    height: 100%;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.eicircle:hover + .display-on-hover {
+    display: block;
+    position: relative;
+    bottom: 100px;
+    right: 20px;
+}
+
+.sncircle:hover + .display-on-hover {
+    display: block;
+    position: relative;
+    bottom: 100px;
+    right: 20px;
+}
+
+.tfcircle:hover + .display-on-hover {
+    display: block;
+    position: relative;
+    bottom: 100px;
+    left: 190px;
+}
+
+.jpcircle:hover + .display-on-hover {
+    display: block;
+    position: relative;
+    bottom: 100px;
+    left: 190px;
+}
+
+.display-on-hover em {
+    font-size: 12px;
+}
+
+.display-on-hover#i em {
+    color: #E5E8B6;
+}
+
+.display-on-hover#n em {
+    color: #BEB8EB;
+}
+
+.display-on-hover#f em {
+    color: #E3EEE2;
+}
+
+.display-on-hover#j em {
+    color: #F49A9A91;
+}
+
+.display-on-hover {
+    display: none;
+    background-color: #f6f6f6;
+    width: 100px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    color: #646464;
+    font-family: Montserrat;
+    font-size: 10px;
+    margin-bottom: -70px;
+}
+
+.eicircle {
+    border-radius: 100px;
+    background: #E5E8B6;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-left: 90px;
+}
+
+.eicircle p {
+    font-family: Montserrat;
+    margin-top: 40px;
+}
+
+.eicircle .sector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F6DC8D; 
+    clip-path: polygon(50% 50%, 0 100%, 100% 100%); 
+    transform: rotate(45deg); 
+}
+
+.sncircle {
+    border-radius: 100px;
+    background: #BEB8EB;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.sncircle p {
+    font-family: Montserrat;
+    margin-top: 80px;
+}
+
+.sncircle .sector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #022B3A; 
+    clip-path: polygon(50% 50%, 0 100%, 50% 100%); 
+    transform: rotate(200deg); 
+}
+
+.tfcircle {
+    border-radius: 100px;
+    background: #E3EEE2;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.tfcircle p {
+    font-family: Montserrat;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.tfcircle .sector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ACD1E9; 
+    clip-path: polygon(50% 50%, 0 100%, 200% 100%); 
+    transform: rotate(300deg); 
+}
+
+.jpcircle {
+    border-radius: 100px;
+    background: #F49A9A91;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.jpcircle p {
+    font-family: Montserrat;
+    margin-top: 50px;
+}
+
+.jpcircle .sector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E0E0E2; 
+    clip-path: polygon(50% 50%, 0 100%, 300% 100%); 
+    transform: rotate(20deg); 
+}
+
+.rectdashboard a {
+    text-decoration: none;
+}
+
+.classlinks {
+    display: flex;
+    flex-flow: column;
+}
+
+.rectdashboard .rectclass {
+    background-color: #607D68;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.rectdashboard .rectclass p {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+button.complink {
+    background-color: #757f87;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+    h2 {
+        margin-left: 100px;
+    }
+    
+    .rectdashboard {
+        width: 700px;
+        height: 900px;
+    }
+    
+    .rectdashboard .rectclass {
+        margin-left: 150px;
+    }
+
+    .comphome .left2 {
+        margin-left: 30px;
+        width: 50%;
+    }
+
+    .comphome .right2 { 
+        margin-left: 30px;
+        width: 50%;
+    }
+}
+
+/* sign in page */
+
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.welcome-box {
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #A7CAB1;
+    border: 4px dashed #92ab99;
+    border-radius: 20px;
+    color: white;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.divider {
+    margin: 20px 0;
+    position: relative;
+}
+
+.create-account {
+    margin-top: 20px;
+}
+
+.create-link {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer { 
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F3F2EB;
+    color: black;
+    text-align: left;
+    font-size: 10px;
+    font-family: inherit;
+}
+
+/* edit profile */
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+
+.profile-container { 
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px; 
+    text-align: center; 
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+  
+.profile-pic { 
+    background-color: #c0c0c0; 
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+}
+  
+.profile-info { 
+    margin-top: 20px; 
+}
+
+select {
+    width: 60%;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5a9a9;
+    color: white; 
+    border-radius: 4px;
+    text-align: center; 
+    display: block; 
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+.edit { 
+    border: none;
+    background-color: #f0f0f0; 
+    border-radius: 4px;
+    padding: 10px; 
+    text-align: center; 
+    display: block; 
+    width: 60%;
+    margin: 10px auto; 
+}
+
+.edit:hover { 
+    background-color: #e0e0e0; 
+}
+
+@media (min-width: 992px) {
+
+    /* edit profile */
+
+    .profile-info {
+        padding-top: 30px;
+    }
+    
+    .edit {
+        width: 40%;
+    }
+
+    select {
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px) {
+    .profile-container {
+        width: 550px;
+        height: 800px;
+    }
+}
+
+/* 576 px */

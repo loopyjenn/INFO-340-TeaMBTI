@@ -1,0 +1,22 @@
+header {
+    background: #534fc2;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+ul {
+    list-style: square inside;
+    margin-bottom: 20px;
+}
+
+em {
+    font-weight: bolder;
+    color:#2f2d64;
+}

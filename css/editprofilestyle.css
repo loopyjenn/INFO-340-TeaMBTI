@@ -1,0 +1,16 @@
+button {
+    color: white;
+    font-size: 13px;
+}
+
+button:nth-child(2) { 
+    background-color: #95e995;
+}
+
+button:nth-child(3) { 
+    background-color: #a2a2ee; 
+}
+
+button:nth-child(4) {
+    background-color: #f5d098;
+}

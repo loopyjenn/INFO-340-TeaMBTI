@@ -1,0 +1,297 @@
+/* .icon {
+    max-width: 40px;
+    color: white;
+    position: fixed;
+    top: 0.5%;
+    right: 0;
+} */
+
+/* profile */
+
+.pfp {
+    border-radius: 50%;
+    max-height: 200px;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+/* .buttonsprofile {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+} */
+
+.buttonsprofile a {
+    text-decoration: none;
+    color: white;
+}
+
+.teams h2 {
+    padding-top: 25px;
+    display: flex;
+    justify-items: center;
+}
+
+.teams ul li {
+    display: flex;
+    justify-content: center; 
+}
+
+.teams a {
+    color: black;
+}
+
+.mbti {
+    border: 1px;
+    background-color:#f5a9a9; 
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.pet-peeve {
+    border: 1px;
+    background-color: #95e995;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.hobby {
+    border: 1px;
+    background-color: #a2a2ee; 
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.fave-song {
+    border: 1px;
+    background-color: #f5d098; 
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.logo {
+    max-width: 50px;
+    color: white;
+    position: fixed;
+    top: 3px;
+    right: 0;
+}
+
+.name h1, p {
+    display: inline;
+}
+
+.name h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.name {
+    display: flex, inline;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.name p {
+    color: grey;
+    position: relative;
+    top: -6px;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.name a {
+    text-decoration: none;
+    color: black;
+} 
+
+@media (max-width: 568px) {
+    body {
+        background-color: white;
+        height: 100%;
+    }
+    
+    header h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pfp {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        display: block inline-flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -70px;
+    }
+
+    .teams h2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -80px;
+    }
+
+    .teams ul li {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -80px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: white;
+    }
+
+    .pfp {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        display: block inline-flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -70px;
+    }
+
+    .teams h2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -80px;
+    }
+
+    .teams ul li {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -80px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    html, body {
+        background-color: #F3F2EB;
+    }
+
+    .mbti:hover {
+        background-color:#e48c8c;
+    }
+
+    .pet-peeve:hover {
+        background-color: #73d373;
+    }
+
+    .hobby:hover {
+        background-color: #8181d8; 
+    }
+
+    .fave-song:hover {
+        background-color: #dab47b;
+    }
+
+    .profile-card { 
+        width: 550px;
+        height: 800px;
+        margin: auto;
+        padding: 25px; 
+        text-align: center; 
+        background-color: #fff;
+        border-radius: 20px;
+        filter: drop-shadow(1px 1px 2px #a1a1a1);
+    }
+
+    .pfp {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        display: block inline-flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .teams {
+        margin-top: 10px;
+    }
+
+    .teams h2 {
+        position: relative;
+        left: 130px;
+        top: -45px;
+    }
+
+    .teams ul li {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        position: relative;
+        top: -35px;
+    }
+}
+
+@media (min-width: 968px) {
+    
+    .profile-card {
+        margin-top: 85px;
+        margin-top: 25px;
+        filter: drop-shadow(1px 1px 2px #a1a1a1);
+        border-radius: 55px;
+        margin-bottom: 5px;
+    }
+
+    .pfp {
+        margin-bottom: 30px;
+    }
+    
+    .teams h2 {
+       position: relative;
+       left: 50px;
+    }
+}

@@ -1,0 +1,312 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #F3F2EB;
+    padding-bottom: 50px;
+}
+
+body {
+    height: 120%;
+    display: flex;
+    justify-content: center;
+}
+
+.mbtibody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+}
+
+/* nav bar */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #022B3A;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    z-index: 1;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    left: 0;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 40px;
+    color: white;
+    position: fixed;
+    top: 0.5%;
+    right: 0;
+}
+
+/* compatability page */
+
+.compheader {
+    font-family: Montserrat;
+    color: #505960;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.eicircle {
+    border-radius: 100px;
+    background: #E5E8B6;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.eicircle p {
+    font-family: Montserrat;
+    margin-top: 40px;
+}
+
+.eicircle .sector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F6DC8D; 
+    clip-path: polygon(50% 50%, 0 100%, 100% 100%); 
+    transform: rotate(45deg); 
+}
+
+.sncircle {
+    border-radius: 100px;
+    background: #BEB8EB;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.sncircle p {
+    font-family: Montserrat;
+    margin-top: 80px;
+}
+
+.sncircle .sector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #022B3A; 
+    clip-path: polygon(50% 50%, 0 100%, 50% 100%); 
+    transform: rotate(200deg); 
+}
+
+.tfcircle {
+    border-radius: 100px;
+    background: #E3EEE2;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.tfcircle p {
+    font-family: Montserrat;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.tfcircle .sector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ACD1E9; 
+    clip-path: polygon(50% 50%, 0 100%, 200% 100%); 
+    transform: rotate(300deg); 
+}
+
+.jpcircle {
+    border-radius: 100px;
+    background: #F49A9A91;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.jpcircle p {
+    font-family: Montserrat;
+    margin-top: 50px;
+}
+
+.jpcircle .sector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E0E0E2; 
+    clip-path: polygon(50% 50%, 0 100%, 300% 100%); 
+    transform: rotate(20deg); 
+}
+
+p.sreport {
+    font-family: Montserrat;
+    font-size: 12px;
+    width: 80%;
+    position: absolute;
+    top: 80%;
+}
+
+p.wreport {
+    font-family: Montserrat;
+    font-size: 12px;
+    width: 80%;
+    position: absolute;
+    top: 130%;
+}
+
+p.wereport {
+    font-family: Montserrat;
+    font-size: 12px;
+    width: 80%;
+    position: absolute;
+    top: 180%;
+}
+
+h2:first-of-type {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #505960;
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h2.weaknesses {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #505960;
+    position: absolute;
+    left: 10%;
+    top: 120%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h2.workethic {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #505960;
+    position: absolute;
+    left: 10%;
+    top: 170%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (min-width: 768px) {
+    p.sreport {
+        width: 80%;
+        font-size: 14px;
+    }
+    
+    p.wreport {
+        width: 80%;
+        font-size: 14px;
+    }
+    
+    p.wereport {
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .jpcircle {
+        margin-right: 100px;
+    }
+
+    p.sreport {
+        width: 80%;
+        font-size: 18px;
+    }
+    
+    p.wreport {
+        width: 80%;
+        font-size: 18px;
+    }
+    
+    p.wereport {
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+/* footer */
+
+footer { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F3F2EB;
+    color: black;
+    text-align: left;
+    font-size: 10px;
+}
